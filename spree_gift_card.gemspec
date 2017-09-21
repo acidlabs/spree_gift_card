@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_gift_card'
-  s.version     = '3.1.0'
+  s.version     = '3.3.0'
   s.summary     = 'Spree Gift Card'
   s.description = 'Spree Gift Card Extension'
 
@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.email       = ['jdutil@burlingtonwebapps.com']
   s.homepage    = 'https://github.com/vinsol/spree_gift_card'
 
-  spree_version = '~> 3.1.0'
+  spree_version = '~> 3.3.0'
 
   s.files       = `git ls-files`.split("\n")
   s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
 
   s.require_path = 'lib'
-  s.required_ruby_version = '>= 2.2.0'
+  s.required_ruby_version = '>= 2.2.2'
   s.requirements << 'none'
 
   s.add_dependency 'spree_api',         spree_version
