@@ -1,4 +1,4 @@
-class AddGiftCardAttrToSpreeProducts < ActiveRecord::Migration
+class AddGiftCardAttrToSpreeProducts < ActiveRecord::Migration[5.1]
   def change
     add_column :spree_products, :is_gift_card, :boolean, :default => false, :null => false
   end
